@@ -15,7 +15,7 @@ public class CalculatriceTest {
 	@Test
 	public void testMul() {
 		Calculatrice c = new Calculatrice();
-		assertEquals("Est ce que la multiplication est correcte", 10, c.mul(5, 2));
+		assertEquals("Est ce que la multiplication est correcte", 10, c.mul(5, 3));
 	}
 
 }
